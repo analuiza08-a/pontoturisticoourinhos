@@ -1,0 +1,86 @@
+
+
+h1 {
+    font-size: 3em;
+    font-family:Georgia;
+    color:navy;
+}
+
+header a{
+    margin: 0 30px; 
+    text-decoration: none; 
+    color: navy;
+    display: inline-block
+}
+.c{
+    border-radius: 10px;
+}
+
+header {
+    background-color: lightblue; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+
+body {
+    background-color: rgb(215, 245, 255);
+}
+
+p {
+    font-size: 1.3em;
+    font-family:Georgia;
+}
+
+
+button {
+    border-radius: 10px;
+    color: white;
+    background-color: darkgreen;
+    border-style: hidden;
+    width: 130px;
+    height: 50px;
+    transition: 0.3s ease;
+    font-size: 1.2em;
+    font-family:Georgia;
+
+}
+
+button:active {
+    background-color: gray;
+}
+
+a:active{
+        background-color: gray;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px; 
+}
+
+.image-container img {
+    height: 300px;
+    width: 500px;
+}
+
+footer {
+    background-color: lightblue; 
+    color:navy;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+    width: 100%;
+}
+
+li{
+    font-size: 1.3em;
+    font-family:Georgia;
+}
+
+iframe{
+    border-radius: 10px;
+    height: 300px;
+    width: 500px;
+}
